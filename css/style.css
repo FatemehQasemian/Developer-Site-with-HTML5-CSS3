@@ -57,6 +57,7 @@ p {
     font-size: 18px;
     color: #fff;
     padding: 13px 20px;
+    border: none;
     border-radius: 4px;
     background: #0c2461;
     cursor: pointer;
@@ -259,6 +260,35 @@ p {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+
+/* Contact Form */
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #0c2461;
 }
 
 
