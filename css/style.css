@@ -58,9 +58,19 @@ p {
     font-size: 18px;
     color: #fff;
     padding: 13px 20px;
-    border: none;
+    border-radius: 4px;
     background: #0c2461;
     cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0c2461;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
 }
 
 
@@ -123,4 +133,30 @@ p {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    width: 50%;
+    float: left;
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 50px 30px;
+    min-height: 100%;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
