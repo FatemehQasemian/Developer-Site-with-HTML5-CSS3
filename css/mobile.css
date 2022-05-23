@@ -16,6 +16,10 @@
     display: none;
 }
 
+#home-info {
+    height: 100%;
+}
+
 #home-info .info-content {
     float: none;
     width: 100%;
@@ -34,4 +38,13 @@
 
 #about-info .info-left {
     text-align: center;
+}
+
+#contact-info .box {
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.l-heading {
+    font-size: 25px;
 }
